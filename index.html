@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistência Tecnica</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+</head>
+<body>
+    <main>
+<h1>Assistência Tecnica</h1>
+
+        <form action="/submit" method="POST">
+            <!-- Elementos do formulário -->
+             <br />
+             <br />
+            <label for="name">Nome:</label>
+            
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Digite seu nome"
+            />
+            <br />
+            <label for="age">Idade:</label>
+            <input type="number" id="age" name="age" min="1" max="100" />
+            <br />
+            <br />
+            <label for="name">Razão Social:</label>
+<input type="text" id="name" name="name" placeholder="">
+<br />
+            <label for="pf">
+              <input type="radio" id="pf" name="pessoa" value="pf" />
+              Pessoa Fisica
+            </label>
+            <label for="pj">
+              <input type="radio" id="pj" name="pessoa" value="pj" />
+              Pessoa Juridica
+            </label>
+            <br />
+            <label for="country">Tipo de Equipamento</label>
+            <select id="pessoa" name="pessoa">
+              <option value="Eletrodoméstico">Eletrodoméstico</option>
+              <option value="Eletrônico">Eletrônico</option>
+              <option value="Computador">Computador</option>
+              <option value="Outro">Outro</option>
+            </select>
+            <br>
+            <label for="terms">
+                <input type="checkbox" id="terms" name="terms">
+                Trator
+              </label>
+              <label for="terms"></label>
+                <input type="checkbox" id="terms" name="terms">
+                Caminhão
+              </label>
+              <label for="terms"></label>
+                <input type="checkbox" id="terms" name="terms">
+                Carro
+              </label>
+              <br />
+              <button type="submit">Enviar</button>
+        </form>
+
+
+
+
+    </main>
+</body>
+</html>
